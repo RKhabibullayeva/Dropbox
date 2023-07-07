@@ -1,0 +1,80 @@
+body {
+    background: #00eeff;
+    padding-top: 50px;
+}
+
+.register__container {
+    width: 800px;
+    margin: auto;
+    padding: 21px 41px;
+    background: rgba(255, 0, 0, 0.8);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(238, 114, 114, 0.3);
+}
+
+.register__block {
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+.register__title {
+    font-weight: 600;
+    font-size: 32px;
+    color: #FFF;
+}
+
+.register-btn {
+    background: linear-gradient(135deg, #61B0DC, #7FB4D3);
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 12px 28px;
+    display: block;
+    margin: 30px auto;
+    color: #FFF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-btn:hover {
+    background: linear-gradient(135deg, #61B0DC, #7FB4D3);
+}
+
+.register__form label {
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFF;
+}
+
+.register__form input {
+    margin: 0;
+    display: block;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 12px;
+    padding: 12px 20px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #FFF;
+    color: #FFF;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d-flex span {
+    font-size: 20px;
+    color: #FFF;
+}
+
+a {
+    color: #61B0DC;
+    text-decoration: none;
+}

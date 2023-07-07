@@ -1,0 +1,40 @@
+body {
+    background: #1e00ff;
+    padding-top: 50px;
+}
+
+.files {
+    padding: 10px 5px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #d99797;
+    font-size: 18px;
+    color: white;
+}
+
+.titles {
+    position: relative;
+    top: -15px;
+    left: 10px;
+    font-size: 36px;
+    text-align: start;
+    color: #333;
+}
+
+.myHref {
+    color: white;
+    text-decoration: none;
+}
+
+.deleteBtn {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    color: #101010;
+    font-size: 20px;
+}
+
+.deleteBtn:hover {
+    color: #FF4500;
+}
